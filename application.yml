@@ -25,3 +25,11 @@ logging:
     org.springframework.security: DEBUG
     com.netflix.eureka: OFF
     com.netflix.discovery: OFF
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-service:8761/eureka/
