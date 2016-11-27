@@ -7,3 +7,9 @@ spring:
       bindings:
         output:
           destination: myapp
+
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://auth-service:9191/uaa/user

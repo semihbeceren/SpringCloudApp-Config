@@ -1,0 +1,5 @@
+server:
+  port: 9191
+  contextPath: /uaa
+security:
+  sessions: if_required
