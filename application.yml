@@ -10,7 +10,7 @@ spring:
   jpa:
     generate-ddl: true
   rabbitmq:
-    host: http://127.0.0.1
+    host: http://172.18.0.2
 
 # disable JMX 
 endpoints:
