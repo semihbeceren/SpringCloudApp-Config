@@ -10,7 +10,7 @@ spring:
   jpa:
     generate-ddl: true
   rabbitmq:
-    host: ${DOCKER_IP}
+    host: http://127.0.0.1
 
 # disable JMX 
 endpoints:
