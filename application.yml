@@ -26,9 +26,9 @@ info:
 
 logging:
   level:
-    org.springframework.security: DEBUG
-    com.netflix.eureka: OFF
-    com.netflix.discovery: OFF
+    org.springframework.security: INFO
+    com.netflix.eureka: 'OFF'
+    com.netflix.discovery: 'OFF'
 
 
 eureka:
