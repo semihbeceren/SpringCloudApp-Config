@@ -10,7 +10,7 @@ spring:
   jpa:
     generate-ddl: true
   rabbitmq:
-    host: http://172.18.0.2
+    host: cna-rabbit
 
 # disable JMX 
 endpoints:
