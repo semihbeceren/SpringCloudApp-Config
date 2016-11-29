@@ -13,6 +13,7 @@ spring:
     host: rabbitmq
   zipkin:
     host: zipkin-service
+    baseUrl: http://zipkin-service:9411/
 
 # disable JMX 
 endpoints:
