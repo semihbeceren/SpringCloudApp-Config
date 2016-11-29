@@ -11,6 +11,8 @@ spring:
     generate-ddl: true
   rabbitmq:
     host: rabbitmq
+  zipkin:
+    host: zipkin-service
 
 # disable JMX 
 endpoints:
